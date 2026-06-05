@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.game {
+    width: 90%; 
+    max-width: 800px;
+    background: #1b1b1b; 
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #ff4444;
+    text-shadow: 2px 2px 10px rgba(255, 68, 68, 0.3);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    margin-bottom: 40px;
+    background: #252525; 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#statement {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 50px 0;
+    transition: 0.2s;
+    color: #f1c40f;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+button {
+    padding: 18px 45px;
+    border: none;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.15s;
+    font-weight: bold;
+    user-select: none;
+}
+
+button:hover {
+    transform: scale(1.08);
+    filter: brightness(1.2);
+}
+
+#trueBtn {
+    background: #2ecc71;
+    color: white;
+}
+
+#falseBtn {
+    background: #e74c3c;
+    color: white;
+}
+
+#startBtn {
+    margin-top: 40px;
+    background: #3498db;
+    color: white;
+    width: 100%;
+    max-width: 300px;
+}
+
+#message {
+    margin-top: 30px;
+    font-size: 30px;
+    height: 40px;
+    font-weight: bold;
+}
